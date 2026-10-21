@@ -25,3 +25,6 @@ rustc-ice-*.txt
 
 # additional
 **/agent-instructions.md
+
+# Generated site output
+dist

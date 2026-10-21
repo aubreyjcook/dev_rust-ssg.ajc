@@ -1,0 +1,21 @@
+[package]
+name = "ssg"
+version = "0.1.0"
+edition = "2021"
+description = "A minimal static site generator for gh-pages-style hosting."
+license = "MIT"
+repository = "https://github.com/aubre/example-ssg"
+readme = "README.md"
+
+[dependencies]
+# pulldown-cmark is a well-tested, spec-compliant CommonMark parser.
+# It turns Markdown text into an iterator of "events" (start/end of a
+# heading, a paragraph, a link, ...) which we feed to its HTML renderer.
+# We deliberately use this one external dependency so that the rest of the
+# crate can be read top-to-bottom with no other libraries in the way.
+pulldown-cmark = "0.13"
+
+# Optimise the release build a little: strip debug symbols so the binary is
+# smaller, which is nicer when uploading to a host.
+[profile.release]
+strip = true
