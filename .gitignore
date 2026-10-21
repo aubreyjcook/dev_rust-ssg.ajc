@@ -24,4 +24,4 @@ rustc-ice-*.txt
 #.idea/
 
 # additional
-**/agent-instructions
+**/agent-instructions.md
