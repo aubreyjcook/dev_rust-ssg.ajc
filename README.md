@@ -13,6 +13,7 @@ Rust understand the code.
 
 | Version | Status | Summary |
 | --- | --- | --- |
+| [`v0_02`](v0_02) | alpha · current | Adds front matter (`title`, `template`) and base-URL handling (`--base-url` / `{{base_url}}`). |
 | [`v0_01`](v0_01) | alpha · first version | Working core: Markdown → HTML, `{{title}}`/`{{content}}` templating, directory mirroring, asset copying. |
 
 ## Documentation
@@ -23,7 +24,7 @@ Each version contains its own docs:
 - **`docs/LEARNING_RUST.md`** — the code explained as a guided Rust lesson.
 - **`docs/CHANGELOG.md`** — what changed in that version and why.
 
-Start with [`v0_01/docs/USAGE.md`](v0_01/docs/USAGE.md).
+Start with [`v0_02/docs/USAGE.md`](v0_02/docs/USAGE.md).
 
 ## License
 
